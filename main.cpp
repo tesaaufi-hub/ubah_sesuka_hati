@@ -20,7 +20,7 @@ void tampilkanSambutan() {
 
     std::vector<std::string> daftarTeks = {
         "SELAMAT DATANG DI GAME",
-        "\"Si Ular Nyasar\""
+        "\"ByteMunch\""
     };
 
     int lebarKotak = 40;
@@ -247,3 +247,4 @@ int main() {
     endwin();
     return 0;
 }
+
