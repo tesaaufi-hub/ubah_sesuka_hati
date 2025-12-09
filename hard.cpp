@@ -355,9 +355,6 @@ void HARD_gerakKarakter() {
 //  FUNGSI UTAMA GAME LABIRIN HARD
 // ======================================================
 void jalankanGameHard() {
-    initscr();
-    noecho();
-    cbreak();
 
     if (has_colors()) {
         start_color();
@@ -369,5 +366,6 @@ void jalankanGameHard() {
     HARD_tampilkanPeta(25, 80);
     HARD_gerakKarakter();
 
-    endwin();
+    refresh();
 }
+
