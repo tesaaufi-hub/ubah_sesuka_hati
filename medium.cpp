@@ -359,9 +359,6 @@ void gerakKarakterOtomatis_L1() {
 //  FUNGSI GAME UTAMA (UNIK _L1) - dipanggil dari main
 // ======================================================
 void jalankanGameLabirin_L1() {
-    initscr();
-    noecho();
-    cbreak();
 
     if (has_colors()) {
         start_color();
@@ -373,5 +370,6 @@ void jalankanGameLabirin_L1() {
     tampilkanLabirin_L1(25, 80);
     gerakKarakterOtomatis_L1();
 
-    endwin();
+    refresh();
 }
+
