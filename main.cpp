@@ -20,7 +20,7 @@ void tampilkanSambutan() {
 
     std::vector<std::string> daftarTeks = {
         "SELAMAT DATANG DI GAME",
-        "\"ByteMunch\""
+        "\"BYTEMUNCH\""
     };
 
     int lebarKotak = 40;
@@ -55,7 +55,7 @@ void tampilkanSambutan() {
 void tampilkanDialog() {
 
     std::vector<std::string> daftarDialog = {
-        "Halo petualang! Selamat datang di dunia Si Ular Nyasar.",
+        "Halo petualang! Selamat datang di dunia BYTEMUNCH.",
         "Aku adalah penjaga awal yang akan memandumu.",
         "Perjalananmu akan segera dimulai.",
         "Tapi sebelum itu... siapa nama karaktermu?"
