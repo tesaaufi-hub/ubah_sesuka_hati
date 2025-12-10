@@ -3,9 +3,9 @@
 #include <string>
 #include <vector>
 #include <stdlib.h>
-#include "cuci.cpp"
-#include "opening.cpp"
-#include "kedua.cpp"
+#include "easy.cpp"
+#include "medium.cpp"
+#include "hard.cpp"
 
 // Deklarasi fungsi game
 void jalankanGameLabirin1();
