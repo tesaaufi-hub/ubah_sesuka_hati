@@ -8,7 +8,7 @@
 #include <algorithm>
 
 // ======================================================
-//  LABIRIN ASLI - VARIABEL UNIK _L1
+//  LABIRIN ASLI - VARIABEL L1
 // ======================================================
 static const std::vector<std::string> LABIRIN_L1 = {
     "=========================================       ",
@@ -32,7 +32,7 @@ static const std::vector<std::string> LABIRIN_L1 = {
 };
 
 // ======================================================
-//  UTILITAS FILE (UNIK _L1)
+//  UTILITAS FILE (L1)
 // ======================================================
 bool baca_file_skor_L1(const std::string &namaFile_L1, int &keluarNilai_L1) {
     std::ifstream fileMasuk_L1(namaFile_L1);
@@ -49,7 +49,7 @@ bool tulis_file_skor_L1(const std::string &namaFile_L1, int nilai_L1) {
 }
 
 // ======================================================
-//  ANIMASI MENANG (UNIK _L1)
+//  ANIMASI MENANG (L1)
 // ======================================================
 void animasiMenang_L1(int posY_L1, int posX_L1) {
     const char* teks_L1[] = {
@@ -71,7 +71,7 @@ void animasiMenang_L1(int posY_L1, int posX_L1) {
 }
 
 // ======================================================
-//  ANIMASI KALAH (UNIK _L1)
+//  ANIMASI KALAH (L1)
 // ======================================================
 void animasiKalah_L1(int posY_L1, int posX_L1) {
     const char* teks_L1[] = {
@@ -93,7 +93,7 @@ void animasiKalah_L1(int posY_L1, int posX_L1) {
 }
 
 // ======================================================
-//  MENU JEDA (UNIK _L1)
+//  MENU JEDA (L1)
 // ======================================================
 bool menuJeda_L1(int y_L1, int x_L1) {
     clear();
@@ -111,7 +111,7 @@ bool menuJeda_L1(int y_L1, int x_L1) {
 }
 
 // ======================================================
-//  TAMPILKAN LABIRIN (UNIK _L1)
+//  TAMPILKAN LABIRIN (L1)
 // ======================================================
 void tampilkanLabirin_L1(int tinggiLayar_L1 = 25, int lebarLayar_L1 = 80) {
 
@@ -141,7 +141,7 @@ void tampilkanLabirin_L1(int tinggiLayar_L1 = 25, int lebarLayar_L1 = 80) {
 }
 
 // ======================================================
-//  GERAK KARAKTER OTOMATIS (UNIK _L1)
+//  GERAK KARAKTER OTOMATIS (L1)
 // ======================================================
 void gerakKarakterOtomatis_L1() {
 
@@ -372,5 +372,6 @@ void jalankanGameLabirin_L1() {
 
     refresh();
 }
+
 
 
