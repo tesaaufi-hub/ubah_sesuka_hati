@@ -1,4 +1,4 @@
-#include <ncurses.h>
+#include <ncursesw/curses.h>
 #include <string>
 #include <vector>
 #include <unistd.h>
