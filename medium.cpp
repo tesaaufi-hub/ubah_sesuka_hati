@@ -356,7 +356,7 @@ void gerakKarakterOtomatis_L1() {
 }
 
 // ======================================================
-//  FUNGSI GAME UTAMA (UNIK _L1) - dipanggil dari main
+//  FUNGSI GAME UTAMA (L1) - dipanggil dari main
 // ======================================================
 void jalankanGameLabirin_L1() {
 
@@ -372,4 +372,5 @@ void jalankanGameLabirin_L1() {
 
     refresh();
 }
+
 
